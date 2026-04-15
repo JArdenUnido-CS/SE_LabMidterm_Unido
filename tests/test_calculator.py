@@ -16,7 +16,7 @@ def test_divide_by_zero():
 def test_divide_edge_case():
     assert calculator.divide(5, 2) == 2.5
 
-# Invalid input case
+# Invalid input cases
 def test_invalid_input():
     with pytest.raises(TypeError):
         calculator.add("a", 2)
