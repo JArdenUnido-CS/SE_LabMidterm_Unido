@@ -11,4 +11,4 @@ class Calculator:
 
     def _validate_numbers(self, a, b):
         if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-            raise TypeError("Inputs must be numbers")
+            raise TypeError("Inputs must be a number")
